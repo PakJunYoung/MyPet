@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "748416256357",
+    "firebase_url": "https://mypet-2ae63.firebaseio.com",
+    "project_id": "mypet-2ae63",
+    "storage_bucket": "mypet-2ae63.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:748416256357:android:e41d61111e3b95eb",
+        "android_client_info": {
+          "package_name": "com.inhatc.mypet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "748416256357-d0fic8ijgdm3ve95stlqugm91lhq841u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.inhatc.mypet",
+            "certificate_hash": "c0a62c6f780694c2f18d39e4e15471564cd84da2"
+          }
+        },
+        {
+          "client_id": "748416256357-b2qm5saatst91rhnndj00ihvdgdm0iur.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvmwdvPks2tP03Diuh5gtjwtoToJLnKG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "748416256357-b2qm5saatst91rhnndj00ihvdgdm0iur.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

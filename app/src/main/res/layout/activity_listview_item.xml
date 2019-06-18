@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/imageView1"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="15dp"
+            tools:srcCompat="@tools:sample/avatars" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="4dp"
+            tools:srcCompat="@tools:sample/avatars" />
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="4dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="4">
+
+        <TextView
+            android:id="@+id/pet_name"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+
+            android:gravity="center_vertical"
+            android:text="New Text"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/pet_birth"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:text="New Text"
+            android:textSize="16sp"
+            android:textColor="#666666"
+            />
+
+        <TextView
+            android:id="@+id/pet_type"
+            android:layout_width="150dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginLeft="10dp"
+            android:text="New Text"
+            android:textSize="16sp"
+            android:textColor="#666666"
+             />
+
+    </LinearLayout>
+</LinearLayout>
