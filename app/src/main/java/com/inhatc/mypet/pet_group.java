@@ -156,6 +156,7 @@ public class pet_group extends AppCompatActivity {
                                     public void onCancelled(@NonNull DatabaseError databaseError) {
                                     }
                                 } );
+                                break;
                             }else{
                                 Toast.makeText(getApplicationContext(), "존재하지 않는 코드입니다.", Toast.LENGTH_SHORT).show();
                             }
